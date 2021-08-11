@@ -60,9 +60,9 @@ print(ref.get())
 ## Frameworks/Methods used
 - Beautiful soup(bs4) - web scraping tool
 
-- 
+- <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/f6d1581789fafde90269abb73cfa8530a9ec35ba/images/flutter_logo.png">  -  Web-App development
 
-- <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/dbea7fc4bae5ab0178f1dfd2a10ea56f1b1fa8a2/images/tweepy.png" width="200" height="70">   -  Extracting twitter tweets using API.
+- <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/dbea7fc4bae5ab0178f1dfd2a10ea56f1b1fa8a2/images/tweepy.png">  -  Extracting twitter tweets using API.
 
 - <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/aa51bbebc7ecaafe677dae36878072f4e11be504/images/fasttext.png" width="200" height="50">  -  gettings word vectors.
 
