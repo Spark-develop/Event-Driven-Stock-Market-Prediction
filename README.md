@@ -14,25 +14,40 @@
 ![Model1](images/part-1.png)
 ![Model2](images/part-2.PNG)
 
-## Installation 
+## Setup
 
-- Describe how your software / development is installed. Sometimes it's easy as something like:
+This repository contains Backend-side code for front-end and its installations process click [here](https://github.com/Spark-develop/Predictor.)
 
-```bash
-sudo apt-get install my-cool-thing
+For setting up the backend, I had used [Google-Firebase](https://firebase.google.com/) on both the sides, pushing predicted Data of news and tweets to the firebase, using [firebase admin] https://firebase.google.com/docs/database/admin/start#python package, the hyperlink contains setup documentation about the firebase admin and its queries.
+
+If you are new you need to first Register/Sign up @ [Google-Firebase](https://firebase.google.com/) with email you want, go to console build a project and start.
+Follow the follwing structure and flow ofo database, for the code to work easily,
+![struct](images/database_structure.PNG)
+
+**Imports needed**
+```
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import db
 ```
 
-- often it involves a bit of  downloading sources and building:
-
-```bash
-git clone my-cool-repo.git
-cd /my-cool-repo
-cd /build
-make
+**Fetch the service account key JSON file contents**
+```
+cred = credentials.Certificate('path/to/serviceAccountKey.json')
 ```
 
-- You should list out steps as unambiguously as humanly possible!!
-- Often people don't read the actual install instructions, but they just copy and paste what is in the black boxes. __Keep this in mind!__
+**Initialize the app with a service account, granting admin privileges**
+```
+firebase_admin.initialize_app(cred, {
+    'databaseURL': 'https://databaseName.firebaseio.com'
+})
+```
+
+**As an admin, the app has access to read and write all data, regradless of Security Rules**
+```
+ref = db.reference('restricted_access/secret_document')
+print(ref.get())
+```
 
 ## Usage
 
