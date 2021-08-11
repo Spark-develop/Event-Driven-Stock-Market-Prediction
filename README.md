@@ -95,22 +95,19 @@ print(ref.get())
 - **Live demo @ [Predictor.](https://portfolios-work.web.app/#/)**
 
 
-- Contact thorugh email: [email](mailto:myiotproduct@gmail.com)
+- Contact thorugh [email](mailto:myiotproduct@gmail.com)
 
 ## Road-map
 
-- List your panned future developments
-- This is a good way to keep track of what it is that you want to do in the future!
+- With the help of NTN and CNN, I had built 2 models Chronologically, where in the first model I had just used the raw embeddings for the sentiment analysis and after which for   more efficiency, I had converted the word embeddings into event embeddings using the fasttext model and NTN model.
 
+- Just for the sake of displaying, I had craeted a prototype website containing the information of the predicted stocks.
 
-## License
+- The comparison of word-embedding-based models and event-embedding-based models supports our previous assertion that events are better features for stock market prediction than   terms.
 
-- Depending on what kind of project you are doing, you might have a specific copyright. 
-- Usually on github, everything is open source!
-- You can find license info here: [license](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository)
+  ![result](images/loss.PNG)
 
 ## Project Status
 
-- A lot of the time people will abandon projects. You should always at least let people know if you aren't interested in working on a project anymore!
-- Someone might want to pick it up on your behalf!
+- I would be completing my garduation first, after which I would redesign the structure of the whole project and than pass it to the commuinty with many advances in my mind.
 
