@@ -64,7 +64,8 @@ print(ref.get())
 - NTN model for action - for getting entity relationship representation
 
 - Convolution model - for training the representation and using it for predicting sentiments
-- 
+
+
 ## Usage
 
 - Firstly run [top_stocks.ipynb](topstocks.ipynb) file to get names of top stocks(Indian) which are established in BSE and NSE 
@@ -85,9 +86,16 @@ print(ref.get())
 
 ## Support
 
-- tell users how they can get a hold of you
+- [Sparx Develop](https://www.instagram.com/_sparxdev/)
 
-Contact: [email me](trevor.tomesh@gmail.com)
+
+- [Spark-develop](https://github.com/Spark-develop?tab=repositories)
+
+
+- **Live demo @ [Predictor.](https://portfolios-work.web.app/#/)**
+
+
+- Contact thorugh email: [email me](myiotproduct@gmail.com)
 
 ## Road-map
 
