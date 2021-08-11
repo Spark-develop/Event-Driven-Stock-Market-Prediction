@@ -11,8 +11,10 @@
 ![Prototype-Website](https://img.shields.io/website?down_color=blue&up_color=orange&up_message=Predictor.&url=https%3A%2F%2Fportfolios-work.web.app%2F%23%2F)
 
 ## Visuals
-![Model1](images/part-1.png)
-![Model2](images/part-2.PNG)
+1. Dataset --> Triplet Extraction --> Word-Embeddings(FastText model)
+   ![Model1](images/part-1.png)
+2. Word-Embeddings --> NTN model --> convolutional model
+   ![Model2](images/part-2.PNG)
 
 ## Setup
 
@@ -65,7 +67,7 @@ print(ref.get())
 - or run directly the [analysis.ipynb](analysis.ipynb) for processing the tweets for prediction.
 - at last run the [predicted.ipynb](predicted.ipynb) for passing data to the firebase.(Please make changes in firebase_admin before running this file)
 
-  [results](images/results.PNG)
+  ![results](images/results.PNG)
 
 ## Support
 
