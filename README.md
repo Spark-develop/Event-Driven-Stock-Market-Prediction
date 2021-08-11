@@ -95,7 +95,7 @@ print(ref.get())
 - **Live demo @ [Predictor.](https://portfolios-work.web.app/#/)**
 
 
-- Contact thorugh email: [email me]<a href="mailto:myiotproduct@gmail.com">email me</a>
+- Contact thorugh email: <a href="mailto:myiotproduct@gmail.com">email me</a>
 
 ## Road-map
 
