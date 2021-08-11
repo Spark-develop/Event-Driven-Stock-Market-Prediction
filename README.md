@@ -6,7 +6,9 @@
 
 ## Badges
 
-![Sparx Develop](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white) ![social](https://img.shields.io/github/followers/Spark-develop?style=social) ![Prototype-Website](https://img.shields.io/website?down_color=blue&up_color=orange&up_message=Predictor.&url=https%3A%2F%2Fportfolios-work.web.app%2F%23%2F)
+![Sparx Develop](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white) [Sparx Develop](https://www.instagram.com/_sparxdev/)
+![social](https://img.shields.io/github/followers/Spark-develop?style=social) [Spark-develop](https://github.com/Spark-develop?tab=repositories)
+![Prototype-Website](https://img.shields.io/website?down_color=blue&up_color=orange&up_message=Predictor.&url=https%3A%2F%2Fportfolios-work.web.app%2F%23%2F) [Predictor.](https://portfolios-work.web.app/#/)
 
 ## Visuals
 
