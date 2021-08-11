@@ -60,7 +60,7 @@ print(ref.get())
 ## Frameworks/Methods used
 - Beautiful soup(bs4) - web scraping tool
 
-- <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/8c9c90502ec1a0c0587c48152efe0ec02efbe3ec/images/flutter_logo.png" width="200" height="100">   -  Web-App development
+- <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/8c9c90502ec1a0c0587c48152efe0ec02efbe3ec/images/flutter_logo.png" width="200" height="70">   -  Web-App development
 
 - <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/aa51bbebc7ecaafe677dae36878072f4e11be504/images/fasttext.png" width="200" height="50">  -  gettings word vectors.
 
