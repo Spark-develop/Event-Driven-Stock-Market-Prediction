@@ -59,7 +59,12 @@ print(ref.get())
 - Beautiful soup(bs4) - web scraping tool
 
 
-- <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/aa51bbebc7ecaafe677dae36878072f4e11be504/images/fasttext.png" width="200" height="50">  -  gettings word vectors 
+- <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/aa51bbebc7ecaafe677dae36878072f4e11be504/images/fasttext.png" width="200" height="50">  -  gettings word vectors.
+
+- NTN model for action - for getting entity relationship representation
+
+- Convolution model - for training the representation and using it for predicting sentiments
+- 
 ## Usage
 
 - Firstly run [top_stocks.ipynb](topstocks.ipynb) file to get names of top stocks(Indian) which are established in BSE and NSE 
