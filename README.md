@@ -23,6 +23,8 @@
 
 ## Setup
 
+1. **Backend**
+
 -  This repository contains Backend-side code for front-end and its installations process click [here](https://github.com/Spark-develop/Predictor.)
 
 -  For setting up the backend, I had used [Google-Firebase](https://firebase.google.com/) on both the sides, pushing predicted Data of news and tweets to the firebase, using        [firebase admin] https://firebase.google.com/docs/database/admin/start#python package, the hyperlink contains setup documentation about the firebase admin and its queries.
@@ -58,6 +60,7 @@ print(ref.get())
 ## Frameworks/Methods used
 - Beautiful soup(bs4) - web scraping tool
 
+- <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/8c9c90502ec1a0c0587c48152efe0ec02efbe3ec/images/flutter_logo.png" width="200" height="50">   -  Web-App development
 
 - <img src="https://github.com/Spark-develop/Event-Driven-Stock-Market-Prediction/blob/aa51bbebc7ecaafe677dae36878072f4e11be504/images/fasttext.png" width="200" height="50">  -  gettings word vectors.
 
@@ -65,6 +68,38 @@ print(ref.get())
 
 - Convolution model - for training the representation and using it for predicting sentiments
 
+2. **Frontend**
+
+- The front-end is been posted into different repo, to visit click [here](https://github.com/Spark-develop/Predictor..git)
+
+- Used flutter for development - flutter is a UI/UX framework for more details checkout few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- For help getting started with Flutter, view our [online documentation](https://flutter.dev/docs), which offers tutorials, samples, guidance on mobile development, and a full     API reference.
+
+- for setting things up,
+   1. Install flutter if not, using [this](https://flutter.dev/docs/get-started/install)
+   2. After installation open the cmd prompt and type ```flutter create project-name```
+   3. Copy the lib folder from the repo, [Predictor./lib/](https://github.com/Spark-develop/Predictor./tree/main/lib) to your new project and also import the dependencies from         [pubspec.yaml](https://github.com/Spark-develop/Predictor./blob/9c0de5ea4ccb9e56686b11815c0e83631714bfd8/pubspec.yaml)
+      
+      ![dependencies](images/depend.PNG)
+      
+   4. after copy pasting, to save dependencies run ```flutter pub get``` in the terminal, or click **Packages get** in IntelliJ or Android Studio.
+  
+ - For web deployment on flutter follow [this](https://flutter.dev/web) documentation
+ - For connecting it to firebase console follow [this](https://flutter.dev/docs/development/data-and-backend/firebase)
+ - Last but not the least, find out some awesome queries from [here](https://petercoding.com/firebase/2020/02/16/using-firebase-queries-in-flutter/).
+
+ **for more details regarding flutter please contact me @ myiotproduct@gmail.com**
+ 
+ do check my other Flutter projects,
+ 
+ 1. Connect apps - [EnginnerApp](https://github.com/Spark-develop/EngineerConnect.git)
+                   [UserApp](https://github.com/Spark-develop/UserConnect.git)
+                   [AdminApp](https://github.com/Spark-develop/adminapp.git)
+                   
+ 2. [Grocery app](https://github.com/Spark-develop/grocery_app.git)
 
 ## Usage
 
@@ -83,6 +118,8 @@ print(ref.get())
 - at last run the [predicted.ipynb](predicted.ipynb) for passing data to the firebase.(Please make changes in firebase_admin before running this file)
 
   ![results](images/results.PNG)
+  
+  ![snapshot of website](images/gif_up+lo.gif)
 
 ## Support
 
