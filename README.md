@@ -12,7 +12,7 @@
 
 ## Visuals
 ![Model1](images/part-1.png)
-![Model2](images/part-2.png)
+![Model2](images/part-2.PNG)
 
 ## Installation 
 
