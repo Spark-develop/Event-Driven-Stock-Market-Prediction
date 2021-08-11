@@ -55,7 +55,9 @@ firebase_admin.initialize_app(cred, {
 ref = db.reference('restricted_access/secret_document')
 print(ref.get())
 ```
-
+## Frameworks/Methods used
+- Beautiful soup(bs4) - web scraping tool
+- Fasttext model - gettings word vectors <img src="https://your-image-url.type" width="50" height="50">
 ## Usage
 
 - Firstly run [top_stocks.ipynb](topstocks.ipynb) file to get names of top stocks(Indian) which are established in BSE and NSE 
