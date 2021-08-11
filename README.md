@@ -11,9 +11,8 @@
 ![Prototype-Website](https://img.shields.io/website?down_color=blue&up_color=orange&up_message=Predictor.&url=https%3A%2F%2Fportfolios-work.web.app%2F%23%2F)
 
 ## Visuals
-
-- Visuals are very important! You might want to include screenshots of your code in operation. GIFS are also great!
-- Just use the "![ ]()" to input images.
+![python](images/model part-1.png)
+![python](images/part-2.png)
 
 ## Installation 
 
