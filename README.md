@@ -10,12 +10,6 @@
 ![social](https://img.shields.io/github/followers/Spark-develop?style=social) 
 ![Prototype-Website](https://img.shields.io/website?down_color=blue&up_color=orange&up_message=Predictor.&url=https%3A%2F%2Fportfolios-work.web.app%2F%23%2F)
 
-[Sparx Develop](https://www.instagram.com/_sparxdev/)
-
-[Spark-develop](https://github.com/Spark-develop?tab=repositories)
-
-[Predictor.](https://portfolios-work.web.app/#/)
-
 ## Visuals
 
 - Visuals are very important! You might want to include screenshots of your code in operation. GIFS are also great!
