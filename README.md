@@ -2,7 +2,7 @@
 
 ## Description
 
--  Project is all about a system that predicts stock prices using the events occurring day by day. Events have been extracted from the archives section of the newspapers available online. Then the extracted headlines are been divided into three parts i. e. actor, relation, and object. After some preprocessing and generation of the word vectors, these texts are sent for calculating entity relation representation to the novel neural tensor network. Further, they are processed using a deep convolutional neural network with a max-pooling layer, and the result is been concluded into two classes positive and negative.
+-  Project is all about a system that predicts stock prices using the events occurring day by day. Events have been extracted from the archives section of the newspapers            available online. Then the extracted headlines are been divided into three parts i. e. actor, relation, and object. After some preprocessing and generation of the word          vectors, these texts are sent for calculating entity relation representation to the novel neural tensor network. Further, they are processed using a deep convolutional neural    network with a max-pooling layer, and the result is been concluded into two classes positive and negative.
 
 ## Badges
 
@@ -16,13 +16,13 @@
 
 ## Setup
 
-This repository contains Backend-side code for front-end and its installations process click [here](https://github.com/Spark-develop/Predictor.)
+-  This repository contains Backend-side code for front-end and its installations process click [here](https://github.com/Spark-develop/Predictor.)
 
-For setting up the backend, I had used [Google-Firebase](https://firebase.google.com/) on both the sides, pushing predicted Data of news and tweets to the firebase, using [firebase admin] https://firebase.google.com/docs/database/admin/start#python package, the hyperlink contains setup documentation about the firebase admin and its queries.
+-  For setting up the backend, I had used [Google-Firebase](https://firebase.google.com/) on both the sides, pushing predicted Data of news and tweets to the firebase, using        [firebase admin] https://firebase.google.com/docs/database/admin/start#python package, the hyperlink contains setup documentation about the firebase admin and its queries.
 
-If you are new you need to first Register/Sign up @ [Google-Firebase](https://firebase.google.com/) with email you want, go to console build a project and start.
-Follow the follwing structure and flow ofo database, for the code to work easily,
-![struct](images/database_structure.PNG)
+-  If you are new you need to first Register/Sign up @ [Google-Firebase](https://firebase.google.com/) with email you want, go to console build a project and start.
+   Follow the follwing structure and flow ofo database, for the code to work easily,
+   ![struct](images/database_structure.PNG)
 
 **Imports needed**
 ```
@@ -51,14 +51,21 @@ print(ref.get())
 
 ## Usage
 
-- Describe how the program / project is going to be used once it is installed. 
-- If it is a command line app, you'll want to give CLI examples:
+- Firstly run [top_stocks.ipynb](topstocks.ipynb) file to get names of top stocks(Indian) which are established in BSE and NSE 
+  ```
+  link = "https://money.rediff.com/companies/market-capitalisation"
+  dayres = requests.get(link)
+  daysoup1 = bs4.BeautifulSoup(dayres.text, 'html.parser')
+  ```
+  the snippet in from the file, denoting that web scraping is been performed on the link given above.
+- a new file will be created named [topL.csv](topL.csv), containing the web scraped names of top stocks.
+  [topL](images/top_table_img.PNG)
+  
+- Further, execute the [extract_news.py](Utils/extract_news.py) for extracting the news of the top List.
+- or run directly the [analysis.ipynb](analysis.ipynb) for processing the tweets for prediction.
+- at last run the [predicted.ipynb](predicted.ipynb) for passing data to the firebase.(Please make changes in firebase_admin before running this file)
 
-```bash
-cool-project -arg1 -arg2
-```
-
-- then maybe show a screenshot of  the results :smile:
+  [results](images/results.PNG)
 
 ## Support
 
