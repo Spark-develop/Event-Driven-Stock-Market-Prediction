@@ -148,5 +148,5 @@ print(ref.get())
 
 ## Project Status
 
-- I would be completing my garduation first, after which I would redesign the structure of the whole project and than pass it to the commuinty with many advances in my mind.
+- I would be completing my garduation first, after which I would redesign the structure of the whole project and than pass it to the community with many advances in my mind.
 
